@@ -1,15 +1,13 @@
-// 14 ms | 17.9 MB
+// 15 ms | 19.4 MB
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
             return False
-        
-        count = {}
+        dic = {}
         for ch in s:
-            count[ch] = count.get(ch, 0) + 1
+            dic[ch] = dic.get(ch,0) + 1
         for ch in t:
-            if ch not in count or count[ch] == 0:
+            if ch not in dic or dic[ch] == 0:
                 return False
-            count[ch] -= 1
-
+            dic[ch] -= 1
         return True
