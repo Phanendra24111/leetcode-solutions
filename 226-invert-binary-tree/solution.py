@@ -1,4 +1,4 @@
-// 0 ms | 17.5 MB
+// 0 ms | 19.4 MB
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -6,13 +6,12 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        def order(root):
+    def invertTree(self, root: TreeNode | None) -> TreeNode | None:
+        def invert(root):
             if not root:
                 return
-            root.left, root.right = root.right, root.left
-            order(root.right)
-            order(root.left)
-
-        order(root)
+            root.left ,root.right = root.right, root.left
+            invert(root.right)
+            invert(root.left)
+        invert(root)
         return root
