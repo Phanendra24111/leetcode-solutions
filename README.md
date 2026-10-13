@@ -1,10 +1,11 @@
 # Solutions
 
 <!-- LEETHUB:TABLE:START -->
-Solved: 10 (Easy: 7, Medium: 3, Hard: 0)
+Solved: 11 (Easy: 8, Medium: 3, Hard: 0)
 
 | # | Problem | Difficulty | Solved |
 |---|---|---|---|
+| 94 | [Binary Tree Inorder Traversal](94-binary-tree-inorder-traversal/) | Easy | 2026-10-13 |
 | 217 | [Contains Duplicate](217-contains-duplicate/) | Easy | 2026-10-13 |
 | 49 | [Group Anagrams](49-group-anagrams/) | Medium | 2026-10-13 |
 | 226 | [Invert Binary Tree](226-invert-binary-tree/) | Easy | 2026-10-13 |
@@ -14,5 +15,5 @@ Solved: 10 (Easy: 7, Medium: 3, Hard: 0)
 | 347 | [Top K Frequent Elements](347-top-k-frequent-elements/) | Medium | 2026-10-13 |
 | 1 | [Two Sum](1-two-sum/) | Easy | 2026-10-13 |
 | 242 | [Valid Anagram](242-valid-anagram/) | Easy | 2026-10-13 |
-| 94 | [Binary Tree Inorder Traversal](94-binary-tree-inorder-traversal/) | Easy | 2026-10-13 |
+| 144 | [Binary Tree Preorder Traversal](144-binary-tree-preorder-traversal/) | Easy | 2026-10-13 |
 <!-- LEETHUB:TABLE:END -->
