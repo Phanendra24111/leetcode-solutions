@@ -1,7 +1,7 @@
 # Solutions
 
 <!-- LEETHUB:TABLE:START -->
-Solved: 12 (Easy: 8, Medium: 4, Hard: 0)
+Solved: 13 (Easy: 8, Medium: 5, Hard: 0)
 
 | # | Problem | Difficulty | Solved |
 |---|---|---|---|
@@ -17,4 +17,5 @@ Solved: 12 (Easy: 8, Medium: 4, Hard: 0)
 | 1 | [Two Sum](1-two-sum/) | Easy | 2026-10-14 |
 | 242 | [Valid Anagram](242-valid-anagram/) | Easy | 2026-10-14 |
 | 98 | [Validate Binary Search Tree](98-validate-binary-search-tree/) | Medium | 2026-10-14 |
+| 103 | [Binary Tree Zigzag Level Order Traversal](103-binary-tree-zigzag-level-order-traversal/) | Medium | 2026-10-14 |
 <!-- LEETHUB:TABLE:END -->
